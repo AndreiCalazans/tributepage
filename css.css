@@ -1,0 +1,22 @@
+.background {
+  margin-top: 30px;
+  background: lightgrey;
+  background-attachment: fixed;
+  width: 100%;
+  height: 200px;
+
+}
+
+.quotebox {
+  padding: 50px;
+}
+img {
+  padding:20px;
+}
+blockquote {
+  font-size: 3rem;
+}
+div h1 {
+  float: right;
+
+}

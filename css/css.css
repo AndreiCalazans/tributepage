@@ -1,0 +1,93 @@
+
+body {
+
+  background-color: lightgrey;
+  left: 0;
+
+  position: relative;
+}
+.imgmenuheader {
+
+  z-index: 1;
+  margin-left: 0;
+}
+.imageclose {
+  position: absolute;
+  z-index: 3;
+  margin-left: 0;
+}
+.menu {
+  width: 285px;
+  height: 100%;
+  position: fixed;
+  background: grey;
+  left: -285px;
+}
+.icon-close {
+  cursor: pointer;
+  position: static;
+
+}
+.menulist {
+  position: relative;
+
+}
+.menu ul {
+  list-style: none;
+  margin-left: -40px;
+  padding: none;
+}
+.menu li:hover {
+  background: white;
+}
+.menu li {
+  font-size: 2rem;
+  border-bottom: 1px solid black;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+.chapterbox {
+  border: 1px solid black;
+}
+.chaptericons {
+  text-align: center;
+  width: 30%;
+}
+.chaptericons h2 {
+  font-size: 1rem;
+  overflow: auto;
+}
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.icon-menu i {
+  margin-right: 5px;
+}
+
+.chapterbox, .boxleft , .boxright {
+  height: 200px;
+  border: 2px solid lightgrey;
+  background-color: white;
+  color: black;
+}
+.chapterbox h1 {
+  padding: 50px 0;
+}
+.boxleft p , .boxright p {
+  padding: 80px;
+  font-size: 2rem;
+}
+footer p{
+  padding: 20px 0;
+  float: right;
+}
