@@ -1,22 +1,78 @@
+
 .background {
   margin-top: 30px;
-  background: lightgrey;
-  background-attachment: fixed;
+  color:white;
+  background: #b0b0b1; /* For browsers that do not support gradients */
+background-image: linear-gradient(40deg,rgba(50,120,208,0.94), rgba(41,137,216,0.93 )), url(images/lucas.jpg  );
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center top;
+height: 100vh;
+position: relative;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+
   width: 100%;
-  height: 200px;
+}
+.btn  {
+  font-size: 2rem !important;
+  border-radius: 30px !important;
+  margin: 10px !important;
+  opacity:;
+  width: 150px;
+  opacity: 0.75;
+
+}
+.btn a {
+  color: white;
+}
+footer {
+  clear: both;
+  background-color: rgb(50,120,208);
+  font-size: 1.5rem;
+  color: white;
+  margin: 50px -50px 0 -50px;
+  text-align: center;
+  padding: 10px ;
 
 }
 
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+h2 {
+  font-family: Impact, Charcoal, sans-serif;
+}
 .quotebox {
-  padding: 50px;
+  display: block;
+ 	position: absolute;
+	margin-top: 20%;
+	left:5%;
+	letter-spacing: 2px;
 }
 img {
   padding:20px;
 }
-blockquote {
+div blockquote {
   font-size: 3rem;
 }
 div h1 {
   float: right;
+  margin-right: 40px;
+}
+footer div div:nth-child(1){
+  height:120px;
+  padding: 30px;
+  color: white;
+  background-color: rgb(50,120,208)
+}
+footer div div:nth-child(2) {
+  padding: none;
+  background-color: rgb(50,120,208)
+}
+footer p a {
 
+  color: white;
+  text-decoration: none;
 }
